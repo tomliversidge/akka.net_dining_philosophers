@@ -4,11 +4,11 @@ namespace Akka.FSMExample.Messages
 {
     public class TakenBy
     {
-        public IActorRef Hakker { get; private set; }
+        public IActorRef Philosopher { get; private set; }
 
-        public TakenBy(IActorRef hakker)
+        public TakenBy(IActorRef philosopher)
         {
-            Hakker = hakker;
+            Philosopher = philosopher;
         }
     }
 }
